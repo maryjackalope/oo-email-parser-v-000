@@ -8,7 +8,7 @@ attr_accessor :emails
  
  def parse 
    emails.split.map. do |email|
-     emails.split(' ')
+     email.split(' ')
    end.flatten.uniq
  end
 
