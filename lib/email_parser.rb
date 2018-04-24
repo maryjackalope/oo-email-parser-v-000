@@ -11,6 +11,7 @@ class EmailParser
  end
  
  def parser 
-   emails.split.map. do 
+   emails.split.map. do |email|
+     
 
 end
