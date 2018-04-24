@@ -12,4 +12,4 @@ attr_accessor :emails
    end.flatten.uniq
  end
 
-end
+end 
