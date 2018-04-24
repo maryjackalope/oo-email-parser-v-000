@@ -12,6 +12,6 @@ class EmailParser
  
  def parser 
    emails.split.map. do |email|
-     
+     email.split()
 
 end
