@@ -7,9 +7,7 @@ attr_accessor :emails
  end
  
  def parse 
-  emails = email.split(/[,\s]+/) #regex 
-  emails = emails.uniq
-  emails
+  emails.split(", ").join(" ").split(" ").uniq
  end
 
 end 
